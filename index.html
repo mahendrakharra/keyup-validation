@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Sign-Up form keyup validation</title>
+    <link rel="stylesheet" href="master.css" type="text/css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
+     integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ"
+     crossorigin="anonymous">
+  </head>
+  <body>
+    <div class="main-div">
+            <h3 class="heading">Keyup-valid Form</h3>
+         <form class="signup-form">
+             <div class="row">
+             <label for="name"> Name : </label>
+             <input type="text" name="name" placeholder="Fullname" maxlength="30" />
+             <p>Name must be in alphabet, 2 and 3 word!</p>
+             <div class="fix"></div>
+             </div>
+             <div class="row">
+             <label for="email"> Email : </label>
+             <input type="text" name="email" placeholder="Email Address">
+             <p>Email must be a valid eddress, e.g. me@mydomain.com!</p>
+             <div class="fix"></div>
+             </div>
+             <div class="row">
+              <label for="username"> Username : </label>
+              <input type="text" name="username" placeholder="Username">
+              <p>Username must be in alphanumeric and contain 5-12 characters!</p>
+              <div class="fix"></div>
+              </div>
+              <div class="row">
+              <label for="password"> Password : </label>
+              <input type="password" id="pass" name="password" placeholder="Password">
+              <span class="fa fa-eye-slash" id="eye"></span>
+              <p>Password must be alphanumeric (@,_ and - also allowed) and be 8-20 characters!</p>
+              <div class="fix"></div>
+              </div>
+              <div class="row">
+              <label for="number"> Number : </label>
+              <input type="text" name="number" placeholder="Mobile Number">
+              <p>Number must be a valid Indian phone number (10 digits)!</p>
+              <div class="fix"></div>
+              </div>
+         </form>
+    </div>
+     <script src="sandbox.js"></script>
+  </body>
+</html>
