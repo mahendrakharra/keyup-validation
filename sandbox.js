@@ -1,3 +1,6 @@
+
+    //Js file for this project
+
 const main = document.querySelector('.main-div');
 const inputs = document.querySelectorAll('input');
 const passShow = document.querySelector('#eye');
